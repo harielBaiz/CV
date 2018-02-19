@@ -1,0 +1,138 @@
+body {
+  background: #00A8E8;
+}
+h1, h4, p, ul {
+  font-family: 'Roboto Mono', monospace;
+}
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 40px;
+  color: #00171F;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+h2 {
+  font-size: 24px;
+  color: #00A8E8;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00A8E8;
+}
+h3 {
+  color: #003459;
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+h4 {
+  color: #01A9E9;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#Contenedor {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+#MenuNav {
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+  position: fixed;
+}
+#MenuNav img {
+  width: 170px;
+  height: 170px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#Informacion {
+  float: right;
+  width: 70%;
+  margin-right: 5%;
+}
+.Menu {
+  width: 170px;
+  margin: 30px 0 0 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Menu li {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  border-bottom: 2px solid #003459;
+  margin-bottom: 9px;
+  padding-bottom: 4px;
+  list-style: none;
+}
+.Menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+.Menu li a:hover {
+  text-decoration: none;
+  color: #003459;
+  font-family: 'Roboto', sans-serif;
+}
+.Seccion {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background: #fff;
+  padding: 10px 15px 18px 15px;
+  border-bottom: 12px solid #003459;
+  overflow: hidden;
+}
+.Datos {
+  color:#00A8E8;
+}
+.Datos em {
+  color:#00171F;
+}
+.ListaPortfolio{
+  list-style: none;
+}
+.ListaPortfolio li{
+}
+.ListaPortfolio li img{
+  width: 140px;
+  height: 140px;
+  float: left;
+}
+#Footer {
+  background: #00A8E8;
+  clear: both;
+  border-top: 4px solid #003459;
+  margin: 30px 5% 0 5%;
+  height: 130px;
+}
+.FooterIzq {
+  width: 50%;
+  float: left;
+}
+.FooterIzq ul {
+  margin: 10px 0px;
+  padding: 0;
+}
+.FooterIzq ul li {
+  font-size: 12px;
+  list-style: none;
+}
+.FooterDer {
+  width: 50%
+  float:right;
+  overflow: hidden;
+}
+.FooterDer li {
+  list-style: none;
+}
+.FooterImg img {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-left: 10px;
+}
